@@ -1,0 +1,38 @@
+/* setting basic */
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+html {
+    font-size: 62.5%;
+    /* 1rem=10px */
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 1;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* khai bao bien css tai su dung  */
+:root {
+    --primaryColor: #64c29e;
+    --tilteColor:#353738;
+    --textColor:#848789;
+    --bgColor:#f7f7f7;
+    --bgWhiteColor:#ffffff;
+    --bgDarkColor:#282f35;
+}

@@ -1,0 +1,364 @@
+@import 'setting-example.css';
+
+.wrapper {
+    max-width: 160rem;
+    margin: 0 auto;
+}
+
+.header {
+    min-height: 80rem;
+    background-image: url('../img/YEBO_Bicycle_bg.png');
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-start;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+
+.nav {
+    margin-top: 3rem;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    position: relative;
+}
+
+.nav-item:first-child::after, .nav-item:nth-child(4)::after {
+    content: ".";
+    font-size: 2rem;
+    color: var(--titleColor);
+    text-decoration: none;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+
+.nav-link {
+    color: var(--titleColor);
+    font-size: 1.3rem;
+    position: relative;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.body__first {
+    min-height: 46.9rem;
+    text-align: center;
+    align-items: center;
+    padding: 0 29.5rem;
+    background-color: var(--bgColor);
+}
+
+.img__icon {
+    margin-top: 11.7rem;
+    padding-bottom: 3rem;
+}
+
+.text__title {
+    padding-bottom: 3rem;
+    color: var(--titleColor);
+    font-size: 1.3rem;
+    position: relative;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.text__info {
+    text-align: center;
+    color: var(--textColor);
+    font-size: 1.3rem;
+    position: relative;
+    display: block;
+    text-decoration: none;
+}
+
+.body__middle {
+    min-height: 60rem;
+    display: flex;
+    width: 100%;
+}
+
+.box__left {
+    width: 67%;
+}
+
+.box__right {
+    width: 33%;
+    text-align: center;
+    align-items: center;
+    height: 60rem;
+}
+
+.box__top {
+    height: 40rem;
+    padding: 0 7rem 7rem 7rem;
+}
+
+.box__bottom {
+    height: 20rem;
+}
+
+.img__icon__box {
+    padding-bottom: 3rem;
+    padding-top: 7rem;
+}
+
+.text__title__box {
+    padding-bottom: 2.5rem;
+    color: var(--titleColor);
+    font-size: 1.3rem;
+    position: relative;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.img__fluid {
+    width: 100%;
+    object-fit: cover;
+    height: 60rem;
+}
+
+.img__fluid__box {
+    width: 100%;
+    object-fit: cover;
+    height: 20rem;
+}
+
+.reverse .body__middle {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.reverse {
+    margin-top: -0.1rem;
+}
+
+.line {
+    width: 5rem;
+    size: 0.1rem;
+    margin-top: 4.4rem;
+    border: 0.1rem solid #D7D7D7;
+    display: inline-block;
+    text-align: center;
+}
+
+.box__last__middle {
+    display: flex;
+    margin-top: -0.1rem;
+}
+
+.box__left__last {
+    width: 33%;
+}
+
+.box__middle__last {
+    width: 34%;
+    text-align: center;
+}
+
+.box__right__last{
+    width: 33%;
+}
+
+.img__last {
+    width: 100%;
+    object-fit: cover;
+    height: 60rem;
+}
+
+.text-d {
+    display: flex;
+    justify-content: center;
+}
+
+.text__title__slide {
+    padding-bottom: 2.5rem;
+    color: var(--titleColor);
+    font-size: 1.3rem;
+    position: relative;
+    display: block;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.body__bottom {
+    min-height: 46.9rem;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    width: 100%;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: block;
+    text-align: center;
+  }
+
+  .fade-1,.fade-2 {
+      display: none;
+  }
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 1.1rem;
+    width: 1.1rem;
+    margin: 0 0.2rem;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+
+.text {
+    padding-bottom: 10rem;
+}
+
+.box__division {
+    width: 50%;
+}
+
+.shopnow {
+    display: flex;
+    min-height: 60rem;
+}
+
+.frame__top {
+    height: 30rem;
+    opacity: 1;
+    z-index: 0;
+}
+
+.frame__bot {
+    height: 30rem;
+}
+
+.img__frame {
+    width: 100%;
+    object-fit: cover;
+    height: 30rem;
+}
+
+.frame__top:hover {
+    z-index: 1;
+    background-color: #58a589;
+    opacity: 0.7;
+}
+
+.btn_discover {
+    width: 30rem;
+    height: 5rem;
+    text-transform: uppercase;
+    color: #E9E9EA;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+    background-color: transparent;
+    border: 0.1rem solid #787C80;
+}
+
+.discover {
+    background-color: var(--bgDarkColor);
+    min-height: 20rem;
+    padding: 7.5rem 65rem;
+    margin-top: -0.2rem;
+}
+
+.footer_header {
+    min-height: 46.9rem;
+    background-color: var(--bgWthiteColor);
+    text-align: center;
+    align-items: center;
+}
+
+.logo__footer {
+    padding-top: 10.5rem;
+    padding-bottom: 4rem;
+}
+
+.footer_header .text__info {
+    padding-bottom: 4rem;
+    text-align: center;
+    color: var(--textColor);
+    font-size: 2.4rem;
+    position: relative;
+    display: block;
+    text-decoration: none;
+}
+.from {
+    display: flex;
+}
+.search_bar {
+    width: 40rem;
+    height: 6.9rem;
+    border: 0.1rem solid #D6DADC;
+    font-size: 2rem;
+    text-align:center;
+    color: var(--textColor);
+    text-decoration: none;
+}
+
+.btn_go {
+    color: #ECF7F3;
+    background-color: var(--primaryColor);
+    width: 12.6rem;
+    height: 6.9rem;
+    margin-left: 0.9rem;
+}
+
+.info__footer {
+	justify-content: flex-start;
+	align-items: center;
+    align-content: stretch;
+    width: 33%;
+}
+
+.first {
+    font-size: 1.6rem;
+}
+
+.info__footer .text__info {
+    font-size: 1.39rem;
+}
+
+.footer__bottom {
+    display: flex;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    width: 34%;
+}
+
+.contact {
+    padding-left: 1.5rem;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    width: 33%;
+    justify-content: flex-start;
+}
