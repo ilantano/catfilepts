@@ -385,4 +385,10 @@
 .copyright {
     padding: 0 50px;
 }
+.discover {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 0;
+}
 /*end huyvq*/
