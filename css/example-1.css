@@ -385,4 +385,11 @@
 .copyright>img {
     margin-left: 15px;
 }
+.frame__top:hover {
+    transition: 0.5s ease-in-out;
+}
+.frame__top:hover img {
+    opacity: 0.3;
+    transition: 0.5s ease-in-out;
+}
 /*end huyvq*/
