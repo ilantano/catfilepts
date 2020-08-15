@@ -1,5 +1,4 @@
 @import 'setting-example.css';
-
 .wrapper {
     max-width: 160rem;
     margin: 0 auto;
@@ -76,12 +75,16 @@
 }
 
 .text__info {
-    text-align: center;
-    color: var(--textColor);
+    /*text-align: center;*/
+    color:  #848789;
     font-size: 1.3rem;
     position: relative;
     display: block;
     text-decoration: none;
+    /*huyvq*/
+    line-height: 2;
+    text-align: justify;
+    /*end huyvq*/
 }
 
 .body__middle {
@@ -362,3 +365,24 @@
     width: 33%;
     justify-content: flex-start;
 }
+/*huyvq*/
+.mySlides.fade>.text>.text__info,.body__first>.text__info{
+    text-align: center;
+}
+.footer__bottom {
+    background-color: #f7f7f7;
+    padding: 50px 150px;
+}
+.socials {
+    display: flex;
+    align-items: center;
+    width: 34%;
+    padding: 0 83px;
+}
+.copyright>img {
+    margin-left: 15px;
+}
+.copyright {
+    padding: 0 50px;
+}
+/*end huyvq*/
